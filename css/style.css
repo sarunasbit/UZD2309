@@ -1,0 +1,151 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Nav left side*/
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: rgba(58, 109, 140, 0.99);;
+    font-size: 0.8em;  
+    font-weight: 500;    
+}
+
+header nav .leftSide ul {
+    display: flex;
+    align-items: center;
+}
+
+header nav .leftSide ul li {
+    cursor: pointer;
+}
+
+header nav .leftSide ul li:not(:last-child) {
+    margin-right: 35px;
+}
+
+header nav .leftSide ul .icon {
+    font-size: 2em;
+    padding-right: 30px;
+}
+
+/* Nav right side*/
+
+
+header nav .rightSide ul {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+header nav .rightSide ul li {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+header nav .rightSide ul li:nth-child(3) {
+ margin-right: 5px;
+}
+
+header nav .rightSide ul li:last-child {
+    margin-right: 35px;
+}
+
+header nav .rightSide ul .fa-globe {
+    font-size: 2em;
+}
+
+header nav .rightSide ul .buttonStyle {
+    background-color: #FCCD2A;
+    padding: 8px 14px;
+    border-radius: 3px;
+}
+
+/* Header inner */
+
+header {
+    background-image: url(../image/bckLogo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    
+
+}
+
+header .inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 75px 0px 175px 0px;
+    background-color: rgba(63, 162, 246, 0.8);
+    text-align: center;
+}
+
+header .inner h1 {
+    font-weight: bold;
+    font-size: 2.2em;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+header .inner h1 span {
+    text-transform: lowercase;
+}
+
+header .inner p {
+    max-width: 480px;
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 1.6;
+}
+
+header .inner span {
+    font-weight: bold;
+}
+
+header .inner .buttonsHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 500px;
+}
+
+header .inner .buttonsHeader .buttonInner {
+    border: 2px solid white;
+    max-width: 160px;
+    padding: 8px 16px;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    line-height: 1.3;
+    cursor: pointer;
+}
+
+header .inner .buttonsHeader .buttonInner:first-child {
+    margin-right: 55px;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+}
+
+main h2 {
+    font-size: 1.8em;
+    color: rgba(58, 109, 140);
+    max-width: 650px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
